@@ -1,5 +1,10 @@
 
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 
 
 .MainBody {
@@ -20,7 +25,8 @@
 
 
   h2 {
-    color: #f7afaa ;
+    color: #da726b ;
+    animation: blink 1s infinite;
   }
 
   h3 {
